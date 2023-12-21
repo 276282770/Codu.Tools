@@ -10,12 +10,26 @@
 		<Authors>Codu</Authors>
 		<Company>CoduNet</Company>
 		<Description>加解密、散列值相关功能.</Description>
-		<Copyright>MIT</Copyright>
-		<PackageIcon>R-C128.png</PackageIcon>
+		<Copyright>CoduNet</Copyright>
+		<PackageIcon>icon128.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/276282770/Codu.Tools</PackageProjectUrl>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/276282770/Codu.Tools.git</RepositoryUrl>
+		<PackageTags>工具;密码;加解密;加密;hash;散列</PackageTags>
+		<AssemblyVersion>0.0.0.1</AssemblyVersion>
+		<FileVersion>0.0.0.1</FileVersion>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include="C:\Users\Administrator\Desktop\R-C128.png">
+	  <None Include="C:\Users\Administrator\Desktop\icon128.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Readme.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
