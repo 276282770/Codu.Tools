@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>Codu.$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>Codu.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<Title>Related to cryptography</Title>
+		<Authors>Codu</Authors>
+		<Company>CoduNet</Company>
+		<Description>加解密、散列值相关功能.</Description>
+		<Copyright>MIT</Copyright>
+		<PackageIcon>R-C128.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\Administrator\Desktop\R-C128.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
